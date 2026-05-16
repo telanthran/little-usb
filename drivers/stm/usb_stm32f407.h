@@ -23,7 +23,4 @@ inline static __IO uint32_t *FIFO(uint8_t endpoint_number) {
     return (__IO uint32_t *)(USB_OTG_FS_PERIPH_BASE + USB_OTG_FIFO_BASE + (endpoint_number * 0x1000));
 }
 
-extern const UsbDriver_t usb_driver;
-extern UsbEvents usb_events;
-
 #endif /* USB_STM32F407_H_ */

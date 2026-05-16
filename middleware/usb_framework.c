@@ -1,6 +1,6 @@
 #include "stddef.h"
 #include "usb_framework.h"
-#include "stm/usb_stm32f407.h"
+#include "usb_hw_interface.h"
 #include "usb_device.h"
 #include "usb_descriptors.h"
 #include "usb_standards.h"

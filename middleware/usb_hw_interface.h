@@ -16,7 +16,9 @@ typedef struct
     void (*read_packet)(void const *buffer, uint16_t size);
     void (*write_packet)(uint8_t endpoint_number, void const *buffer, uint16_t size);
     void (*poll)();
-    // ToDO Add pointers to the other driver functions.
 } UsbDriver_t;
+
+extern const UsbDriver_t usb_driver;
+extern UsbEvents usb_events;
 
 #endif /* USB_HW_INTERFACE_H_ */
