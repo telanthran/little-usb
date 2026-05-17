@@ -20,6 +20,6 @@ typedef struct {
 extern const UsbDeviceDescriptor                   device_descriptor;
 extern const uint8_t                               hid_report_descriptor[];
 extern const UsbConfigurationDescriptorCombination configuration_descriptor_combination;
-extern const uint16_t hid_report_descriptor_size; // <-- Add this line
+extern const uint16_t hid_report_descriptor_size;
 
 #endif /* USB_DESCRIPTORS_H_ */

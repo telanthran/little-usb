@@ -1,7 +1,6 @@
 #include "air_mouse.h"
 #include "usb_descriptors.h"
-#include "stm/usb_stm32f407.h"
-#include "stm32f4xx.h"
+#include "usb_hw_interface.h"
 #include <math.h>
 
 static AccelerometerDriver *accel;

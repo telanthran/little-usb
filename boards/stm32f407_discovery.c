@@ -1,5 +1,5 @@
 #include "stm32f407_discovery.h"
-#include "chips/lis3dsh.h"
+#include "peripherals/lis3dsh.h"
 #include "stm32f4xx.h"
 
 

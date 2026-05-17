@@ -2,7 +2,7 @@
 #include "usb_framework.h"
 #include "usb_device.h"
 #include "air_mouse.h"
-#include "boards/stm32f407_discovery.h"
+#include "stm32f407_discovery.h"
 
 UsbDevice usb_device;
 uint32_t buffer[8];
